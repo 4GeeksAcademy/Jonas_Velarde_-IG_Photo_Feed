@@ -1,0 +1,56 @@
+{
+    border: 1px dashed red;
+}
+body {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    font-family: Helvetica;
+    color: rgb(209, 148, 148);
+}
+.feed{
+    background-color: rgb(212, 210, 210);
+    padding: 15px;
+}
+.header{
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+div[id*=post] {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+div[id*=topbar] {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+}
+
+div[id*=description] {
+    padding: 3px;
+    width: 80%;
+
+}
+div[id*=date] {
+    width: 20%;
+    text-align: right;
+    padding: 3px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+div[id*=comment] {
+    padding: 10px;
+    text-align: left;
+}
